@@ -1,0 +1,23 @@
+@media (min-width: 575.98px){
+  section {
+    padding: 0 calc(50% - 270px);
+  }
+}
+
+@media (min-width: 767.98px){
+  section {
+    padding: 0 calc(50% - 360px);
+  }
+}
+
+@media (min-width: 930px) {
+  section {
+    padding: 0 calc(50% - 465px);
+  }
+}
+
+@media (min-width: 940px){
+  section {
+    padding: 0 calc(50vw - 470px);
+  }
+}

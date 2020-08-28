@@ -1,0 +1,288 @@
+body{
+	margin: 0;
+}
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box; 
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+header,
+section,
+footer{
+  	padding: 0 calc(50vw - 470px);
+
+}
+
+.header__inner{
+	padding: 22px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.header__menu a{
+	font-family: 'Bebas Neue', cursive;
+	text-decoration: none;
+	font-size: 16px;
+	color: #b9b9b9;
+}
+
+.header__menu li{
+	display: inline-block;
+}
+.header__menu li + li{
+	margin-left: 25px;
+}
+.header__logo{
+	font-size: 36px;
+	color: #e8603c;
+	text-transform: uppercase;
+}
+
+.header__logo span{
+	color: #f3af9d;
+}
+
+.slider{
+	position: relative;
+	overflow: hidden;
+}
+
+.slider__top{
+	position: relative;
+}
+
+.slider__top .slick-arrow{
+	position: absolute;
+	top: 40%;
+	font-size: 0;
+	height: 56px;
+	width: 37px;
+	z-index: 10;
+	border: none;
+}
+
+.slider__top .slick-arrow.slick-prev{
+	left: 0;
+	background: url('../img/sl_arrow_l.svg') 0 0 / 100% no-repeat;
+}
+
+.slider__top .slick-arrow.slick-next{
+	right: 0;
+	background: url('../img/sl_arrow_r.svg') 0 0 / 100% no-repeat;
+}
+
+.slider__inner{
+	position: relative;
+}
+
+.slider__item-top{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+}
+
+.slider__container{
+	min-height: 125px;
+	max-width: 415px;
+	margin-top: 245px;
+	margin-left: 36px;
+}
+
+.slider__title{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	color: #FFF;
+	padding-left: 20px;
+	padding-top: 24px;
+}
+.slider__text{
+	font-family: 'Alata', sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 20px 20px;
+}
+
+.slider__bottom{
+	padding-top: 18px;
+	padding-bottom: 40px;
+}
+
+.slider__bottom .slick-track div+div{
+	margin-left: 20px; 
+}
+
+.slider__bottom .slick-track{
+	display: flex;
+	transform: none!important;
+}
+
+.slider__inner:before,
+.slider__inner:after{
+	content: "";
+	height: 60px;
+	width: 100%;
+	background-color: #f2ae9c;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+}
+
+.slider__inner:before{
+	left: 15px;
+	margin-left: 100%;
+}
+
+.slider__inner:after{
+	right: 15px;
+	margin-right: 100%;
+}
+
+.offer__inner{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 46px;
+}
+.offer__box{
+	max-width: 275px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.offer__images{
+	position: absolute;
+}
+
+.offer__title{
+	font-size: 18px;
+	color: #e8663c;
+	width: 165px;
+	margin-left: 68px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.offer__text{
+	font-family: 'Alata', sans-serif;
+	font-size: 12px;
+	color: #4d4d4d;
+	margin-bottom: 22px;
+}
+
+.offer__button a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px 16px;
+	background: #e8663c; 
+}
+
+.recent{
+	padding-bottom: 43px;
+	font-family: 'Bebas Neue', cursive;
+	color: #e8603c;
+}
+.recent__inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.recent__title{
+  font-size: 18px;
+  font-weight: 400;
+  color: #e8663c;
+  margin-bottom: 24px;
+  background-image: url('../img/line1.png');
+}
+
+.recent__title span{
+  background-color: #fff;
+  padding-right: 25px;
+}
+.resent__box{
+	position: relative;	
+}
+
+.resent__box-offer{
+	width: 220px;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	position: absolute;
+	bottom: -66px;
+	padding: 15px 15px;
+}
+
+.resent__text{
+	color: #b9b9b9;
+}
+
+.footer{
+	padding-top: 65px;
+	overflow: hidden;
+}
+
+.footer__inner{
+	background-color: #e8663c;
+	color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding-bottom: 34px;
+}
+
+.footer__inner:before,
+.footer__inner:after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	background-color: #f2ae9c;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+}
+
+.footer__inner:before{
+	left: 15px;
+	margin-left: 100%;
+}
+
+.footer__inner:after{
+	right: 15px;
+	margin-right: 100%;
+}
+.footer__box{
+	padding-top: 39px;
+	padding-left: 36px;
+}
+
+.footer__jetro,
+.footer__twitter,
+.footer__contact{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	padding-bottom: 28px;
+}
+
+.footer__jetro-text,
+.footer__twitter-text,
+.footer__contact-text{
+	font-size: 12px;
+	font-family: 'Alata', sans-serif;
+	width: 260px;
+}
+
+.footer__twitter-text a, span{
+	text-decoration: none;
+	color: #f1b09b;
+}
+
+.footer__contact-text{
+	padding-right: 12px;
+}
+
+.footer__information{
+	width: 123px;
+}
